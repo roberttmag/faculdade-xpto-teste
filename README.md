@@ -16,6 +16,11 @@ Este é um projeto de testes automatizados utilizando Cypress, proposto como ava
 
 ### Pré-requisitos
 Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em [Node.js Download](https://nodejs.org/en/download/package-manager).
+Ter instalado o Intelij Idea Community para executar a api com o JDK instalado no projeto
+Ter instalado o Postman para rodar as requisições
+É possível acessar o endpoint: http://localhost:8080/v1/matriculas/{numero_da_matricula} definindo o número da matrícula a ser buscada
+Utilizar o method: GET
+Configurar a ferramenta Postman com o header: X-API-KEY = unime-qualidade-oficial2, pois todas as chamadas à API devem informar o header X-API-KEY com o valor unime-qualidade-oficial
 
 ### 1. Navegar para o Diretório do Projeto
 Abra o terminal e navegue para o diretório onde você baixou/clonou o projeto.
